@@ -1,4 +1,4 @@
-const INACTIVE_THRESHOLD = 2 * 60 * 60 * 1000; // 2 hours in milliseconds
+const INACTIVE_THRESHOLD = 3 * 60 * 60 * 1000; // 3 hours in milliseconds
 const BASE_MEMORY_PER_TAB = 30 * 1024 * 1024; // 30 MB base memory per tab
 const MEMORY_PER_CHAR = 100; // 100 bytes per character in URL
 const ACTIVE_TAB_MULTIPLIER = 1.5; // Active tabs use 50% more memory

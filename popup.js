@@ -7,3 +7,8 @@ document.getElementById('showMemory').addEventListener('click', () => {
         document.getElementById('memoryInfo').innerHTML = response.memoryUsage;
     });
 });
+
+document.getElementById('button3').addEventListener('click', () => {
+    // This button does nothing
+    console.log('Button 3 clicked');
+});
